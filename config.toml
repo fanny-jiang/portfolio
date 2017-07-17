@@ -31,24 +31,24 @@ theme = "prologue"
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "What's Happening? Facebook Messenger Chat Bot"
-  alt = "What's Happening? Facebook Messenger Chat Bot"
-  source = "img/pic02.jpg"
-  url = "https://m.me/whatshappeningEVE"
+  title = "Codeboard"
+  alt = "Codeboard"
+  source = "img/codeboard-screenshot.png"
+  url = "https://www.codeboard.tech"
 
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "Codeboard"
-  alt = "Codeboard"
-  source = "img/pic03.jpg"
-  url = "https://www.code-board.tech"
+  title = "What's Happening? Facebook Messenger Chat Bot"
+  alt = "What's Happening? Facebook Messenger Chat Bot"
+  source = "img/robot_1024.jpg"
+  url = "https://m.me/whatshappeningEVE"
 
 # Portfolio column 3
 
 [[params.portfolio3]]
   title = "Tech Talk: How to Write Asynchronous JS with ES6 Generators"
   alt = "Tech Talk: How to Write Asynchronous JS with ES6 Generators"
-  source = "img/pic04.jpg"
+  source = "img/generators-screenshot.png"
   url = "https://www.youtube.com/watch?v=-YH29Bs-Zls"
 
