@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fanny Jiang</title>
-    <link>https://&lt;yourgithubusername&gt;.github.io/bookshelf/tags/</link>
+    <link>https://fanny-jiang.github.io/portfolio/tags/</link>
     <description>Recent content in Tags on Fanny Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     
-	<atom:link href="https://<yourgithubusername>.github.io/bookshelf/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fanny-jiang.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
