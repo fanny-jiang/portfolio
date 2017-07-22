@@ -35,7 +35,7 @@ publishDir = "docs"
   title = "Codeboard"
   alt = "Codeboard"
   source = "img/codeboard-screenshot.png"
-  url = "https://www.codeboard.tech"
+  url = "https://code-board.herokuapp.com/"
 
 # Portfolio column two
 
