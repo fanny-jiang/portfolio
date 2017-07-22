@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Fanny Jiang"
-baseurl = "https://<yourgithubusername>.github.io/bookshelf/"
+baseurl = "https://fanny-jiang.github.io/portfolio/"
 theme = "prologue"
 publishDir = "docs"
 
