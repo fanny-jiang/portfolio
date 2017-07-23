@@ -10,10 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/img/favicon.ico" />
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico" />
 	</head>
 	<body>
 
@@ -24,7 +24,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="{{ .Site.BaseURL }}/img/IMG_3267_edit_sq.jpg" alt="Fanny Headshot" /></span>
+							<span class="image avatar48"><img src="{{ .Site.BaseURL }}img/IMG_3267_edit_sq.jpg" alt="Fanny Headshot" /></span>
 							<h1 id="title">{{ .Site.Params.name }}</h1>
 							<p>{{ .Site.Params.description }}</p>
 						</div>
@@ -48,7 +48,7 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
                 <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-                <li><a href="#resume" id="resume-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Résumé</span></a></li>
+                <li><a href="#resume" id="resume-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Resumé</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -76,10 +76,7 @@
 						<div class="container">
 
 							<header>
-                <h2 class="alt">Hi! I'm <strong>Fanny</strong>,
-                  <br />
-                a software engineer.
-                </h2>
+                <h2 class="alt">Hi! I'm <strong>Fanny</strong>,<br />a software engineer.</h2>
 								<p>I'm a full stack JavaScript engineer and I build dynamic<br/>web applications using Node, Express, React, and PostgreSQL.</p>
 							</header>
 
@@ -98,7 +95,7 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>I'm experienced in building JavaScript web applications with React/Redux on the front-end and Node/Express and PostgreSQL on the back-end. I love learning new programming languages and am currently learning Python! Check out my work.</p>
+							<p>I'm experienced in building JavaScript web applications with React/Redux on the front-end and Node/Express and PostgreSQL on the back-end. I love learning new languages and technologies and am currently learning Python.</p>
 
 
               <div class="row">
@@ -148,11 +145,11 @@
 								<h2>About Me</h2>
 							</header>
 
-              <a href="#" class="image featured"><img class="headshot" src="{{ .Site.BaseURL }}/img/IMG_3267_edit_sq.jpg" alt="Fanny Headshot" /></a>
+              <a href="#" class="image featured"><img class="headshot" src="{{ .Site.BaseURL }}img/IMG_3267_edit_sq.jpg" alt="Fanny Headshot" /></a>
 
               <br/>
 
-							<p>I'm a New York City-based full stack web developer and currently a teaching fellow at the Grace Hopper Program at Fullstack Academy of Code in New York City. While working in healthcare, I began coding as a hobby and found that I love the intellectual challenge of programming and the ability to be creative through code. I wanted to continue learning to code and gain skills in tech, which led me to attending the Grace Hopper Program to learn web development. Learning to code has been challenging and so rewarding! I want to continue building my skills and learning new technologies at a driven and forward-thinking company.
+							<p>I'm a New York City-based full stack web developer and currently a teaching fellow at the Grace Hopper Program at Fullstack Academy of Code in New York City. While working in healthcare, I began coding as a hobby and found that I love the intellectual challenge of programming and the ability to be creative through code. I wanted to continue learning to code and gain skills in tech, which led me to attending the Grace Hopper Program to learn web development. I want to continue building my skills, learning new technologies, and contribute to developing products and tools that positively impact the community.
               </p>
 
 						</div>
@@ -163,7 +160,7 @@
 						<div class="container">
 
 							<header>
-								<h2>Résumé</h2>
+								<h2>Resumé</h2>
 							</header>
 
               <!-- <br/> -->
@@ -171,25 +168,21 @@
               <div class="resume">
                 <div class="technologies">
                   <h2>Technologies</h2>
+                  <!-- <ul style="list-style: none; padding-left: 0;"> -->
                   <ul>
-                    <li>
-                      <strong>Proficient: </strong>JavaScript, Node, Express, React, Redux, PostgreSQL
-                      Sequelize, Git/Github, ES6, HTML, CSS
-                    </li>
-                    <li>
-                      <strong>Knowledgeable: </strong>Material-UI, Bootstrap, Bluebird, Webpack, MyScript, ACE Text Editor,
-                      Agile Development, Waffle.io
-                    </li>
-                    <li>
-                      <strong>Familiar: </strong>Mocha, Chai, Jasmine, Enzyme, MySQL, Sass, jQuery, Socket.io,
-                      CO generator library, Facebook Messenger Platform
-                    </li>
+                    <li><strong>Proficient: </strong>JavaScript, Node, Express, React, Redux, PostgreSQL
+                      Sequelize, Git/Github, ES6, HTML, CSS</li>
+
+                    <li><strong>Knowledgeable: </strong>Material-UI, Bootstrap, Bluebird, Webpack, MyScript, ACE Text Editor, Agile Development, Waffle.io</li>
+
+                    <li><strong>Familiar: </strong>Mocha, Chai, Jasmine, Enzyme, MySQL, Sass, jQuery, Socket.io,
+                    CO generator library, Facebook Messenger Platform</li>
                   </ul>
                 </div>
 
                 <div class="projects">
                 <h2>Projects and Accomplishments</h2>
-                  <h3><a href="https://github.com/fanny-jiang/codeboard">Codeboard</a></h3>
+                  <h3><a href="https://github.com/fanny-jiang/codeboard" target="_blank">Codeboard</a></h3>
                   <ul>
                     <li>
                       A web application that uses audio and in-browser code testing to help users prepare for a technical interview
@@ -202,7 +195,7 @@
                     </li>
                   </ul>
 
-                  <h3><a href="https://github.com/fanny-jiang/whats-happening-bot">What's Happening?</a></h3>
+                  <h3><a href="https://github.com/fanny-jiang/whats-happening-bot" target="_blank">What's Happening?</a></h3>
                   <ul>
                     <li>
                       A Facebook Messenger chat bot that uses natural language processing to suggest nearby events
@@ -215,7 +208,7 @@
                     </li>
                   </ul>
 
-                  <h3><a href="https://github.com/fanny-jiang/Tulsis">Tulsi's Baby Shoes</a></h3>
+                  <h3><a href="https://github.com/fanny-jiang/Tulsis" target="_blank">Tulsi's Baby Shoes</a></h3>
                   <ul>
                     <li>
                       E-commerce site that sells a variety of baby shoes
@@ -228,13 +221,12 @@
                     </li>
                   </ul>
 
-                  <h3><a href="https://youtube.com/watch?v=-YH29Bs-Zls">How to Write Asynchronous JS with ES6 Generators</a></h3>
+                  <h3><a href="https://youtube.com/watch?v=-YH29Bs-Zls" target="_blank">How to Write Asynchronous JS with ES6 Generators</a></h3>
                   <ul>
                     <li>
                       Tech talk introducing ES6 Generators and how they can be used in conjunction with JavaScript Promises to write cleaner and easier to read asynchronous JavaScript
                     </li>
                   </ul>
-
                 </div>
 
                 <div class="work-experience">
@@ -269,7 +261,7 @@
 
                 <div class="education">
                   <h2>Education</h2>
-                    <h3>Grace Hopper Program at Fullstack Academy of Code</h3>
+                    <h3><a href="http://www.gracehopper.com/" target="_blank">Grace Hopper Program at Fullstack Academy of Code</a></h3>
                     <strong>Feb 2017 - May 2017</strong>
                     <ul>
                       <li>
@@ -297,7 +289,7 @@
 
               <div class="12u$">
                 <!-- <input type="button" value="Download Resume"><a href="something"></a></input> -->
-                <a href="{{ .Site.BaseURL }}/img/FannyJiang_resume.pdf" target="_blank" class="button">Download Résumé</a>
+                <a href="{{ .Site.BaseURL }}img/FannyJiang_resume.pdf" target="_blank" class="button icon fa-download"></a>
               </div>
 
               <br/>
@@ -313,13 +305,8 @@
 						<div class="container">
 
 							 <header>
-								<h2>Let's get in touch!</h2>
-							</header>
-
-							 <!-- <p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p> -->
+								<h2>Get in touch</h2>
+              </header>
 
 							<!-- <form method="post" action="#">
 								<div class="row">
@@ -329,7 +316,7 @@
 										<textarea name="message" placeholder="Message"></textarea>
 									</div> -->
 									<div class="12u$">
-										<a class="button" href="mailto:hello@fanny-jiang.com"/>Contact</a>
+										<a class="button" href="mailto:hello@fanny-jiang.com"/>hello@fanny-jiang.com</a>
 									</div>
 								<!-- </div>
 							</form> -->
@@ -350,13 +337,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
-			<script src="{{ .Site.BaseURL }}/js/jquery.scrolly.min.js"></script>
-			<script src="{{ .Site.BaseURL }}/js/jquery.scrollzer.min.js"></script>
-			<script src="{{ .Site.BaseURL }}/js/skel.min.js"></script>
-			<script src="{{ .Site.BaseURL }}/js/util.js"></script>
+			<script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+			<script src="{{ .Site.BaseURL }}js/jquery.scrolly.min.js"></script>
+			<script src="{{ .Site.BaseURL }}js/jquery.scrollzer.min.js"></script>
+			<script src="{{ .Site.BaseURL }}js/skel.min.js"></script>
+			<script src="{{ .Site.BaseURL }}js/util.js"></script>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-			<script src="{{ .Site.BaseURL }}/js/main.js"></script>
+			<script src="{{ .Site.BaseURL }}js/main.js"></script>
 
 	</body>
 </html>
