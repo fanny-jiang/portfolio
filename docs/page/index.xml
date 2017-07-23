@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Fanny Jiang</title>
-    <link>https://fanny-jiang.github.io/portfolio/page/</link>
+    <link>www.fanny-jiang.com/page/</link>
     <description>Recent content in Pages on Fanny Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>MIT</copyright>
     <lastBuildDate>Sat, 22 Jul 2017 18:49:53 -0400</lastBuildDate>
     
-	<atom:link href="https://fanny-jiang.github.io/portfolio/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.fanny-jiang.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://fanny-jiang.github.io/portfolio/page/about/</link>
+      <link>www.fanny-jiang.com/page/about/</link>
       <pubDate>Sat, 22 Jul 2017 18:49:53 -0400</pubDate>
       
-      <guid>https://fanny-jiang.github.io/portfolio/page/about/</guid>
+      <guid>www.fanny-jiang.com/page/about/</guid>
       <description></description>
     </item>
     
