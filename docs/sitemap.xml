@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.fanny-jiang.com/page/about/</loc>
+    <loc>https://fanny-jiang.github.io/portfolio/page/about/</loc>
     <lastmod>2017-07-22T18:49:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.fanny-jiang.com/categories/</loc>
+    <loc>https://fanny-jiang.github.io/portfolio/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.fanny-jiang.com/</loc>
-    <lastmod>2017-07-22T18:49:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.fanny-jiang.com/page/</loc>
+    <loc>https://fanny-jiang.github.io/portfolio/</loc>
     <lastmod>2017-07-22T18:49:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.fanny-jiang.com/tags/</loc>
+    <loc>https://fanny-jiang.github.io/portfolio/page/</loc>
+    <lastmod>2017-07-22T18:49:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fanny-jiang.github.io/portfolio/tags/</loc>
     <priority>0</priority>
   </url>
   
