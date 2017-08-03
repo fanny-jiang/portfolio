@@ -1,8 +1,8 @@
 languageCode = "en-us"
 title = "Fanny Jiang"
-baseurl = "https://fanny-jiang.github.io/portfolio/"
+baseurl = "www.fanny-jiang.com"
 theme = "prologue"
-publishDir = "docs"
+publishDir = "public"
 
 [params]
   name = "Fanny Jiang"
