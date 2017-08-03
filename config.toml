@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Fanny Jiang"
-baseurl = "www.fanny-jiang.com"
+baseurl = "https://fanny-jiang.com"
 theme = "prologue"
 publishDir = "public"
 
