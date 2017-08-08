@@ -182,19 +182,24 @@
                 </div>
 
                 <div class="projects">
+                  {{ range .Site.Params.projects }}
                 <h2>Projects and Accomplishments</h2>
-                  <h3><a href="https://github.com/fanny-jiang/codeboard" target="_blank">Codeboard</a></h3>
+                  <h3>
+                    <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                  </h3>
+                  <p style="display: inline;"><a href="{{ .github }}" target="_blank">GitHub</a></p>
                   <ul>
                     <li>
-                      A web application that uses audio and in-browser code testing to help users prepare for a technical interview
+                      {{ .summary }}
                     </li>
                     <li>
-                      <em>Accomplishments: </em>Implemented bottom nav bar functionality, front end design and styling
+                      <em>Accomplishments: </em>{{ .accomplishments}}
                     </li>
                     <li>
-                      Built with React/Redux, Node, Express, PostgreSQL, Web Speech API, Bootstrap, and Material UI using the Agile development method
+                      {{ .technologies }}
                     </li>
                   </ul>
+                  {{ end }}
 
                   <h3><a href="https://github.com/fanny-jiang/whats-happening-bot" target="_blank">What's Happening?</a></h3>
                   <ul>
@@ -290,7 +295,7 @@
 
               <div class="12u$">
                 <!-- <input type="button" value="Download Resume"><a href="something"></a></input> -->
-                <a href="{{ .Site.BaseURL }}/img/FannyJiang_resume.pdf" target="_blank" class="button icon fa-download"></a>
+                <a href="{{ .Site.BaseURL }}/img/FannyJiang_technical_resume.pdf" target="_blank" class="button icon fa-download"></a>
               </div>
 
               <br/>

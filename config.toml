@@ -53,3 +53,14 @@ publishDir = "public"
   source = "img/generators-screenshot.png"
   url = "https://www.youtube.com/watch?v=-YH29Bs-Zls"
 
+# Resume
+
+[[params.projects]]
+  title = "Codeboard"
+  summary = "A web application that uses audio and in-browser code testing to help users prepare for a technical interview"
+  accomplishments = "Implemented bottom nav bar functionality, front end design and styling"
+  technologies = "Built with React/Redux, Node, Express, PostgreSQL, Web Speech API, Bootstrap, and Material UI using the Agile development method"
+  url = "https://code-board.herokuapp.com/"
+  github = "https://github.com/fanny-jiang/codeboard"
+
+
