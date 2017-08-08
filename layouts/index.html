@@ -207,71 +207,54 @@
 
                 <div class="work-experience">
                   <h2>Work Experience</h2>
-                    <h3>Teaching Fellow</h3>
-                    <strong>Fullstack Academy of Code, New York, NY, June 2017 - Present</strong>
+                  {{ range .Site.Params.fellowship }}
+                    <h3>{{ .title }}</h3>
+                    <strong>{{ .employer }}</strong>
                     <ul>
-                      <li>
-                        Mentor a Learning Team of 5 students, supporting their academic success and wellbeing during immersive program
-                      </li>
-                      <li>
-                        Assist instructors during programming workshops, answering students’ questions, and guiding their learning process
-                      </li>
-                      <li>
-                        Conduct admissions interviews, assessing each applicant’s technical ability, and fit within the Fullstack Academy community
-                      </li>
+                      {{ range .experience }}
+                      <li>{{ .listitem }}</li>
+                      {{ end }}
                     </ul>
+                  {{ end }}
 
-                    <h3>Member Services Case Manager</h3>
-                    <strong>Oscar Health Insurance, New York, NY, Sep 2016 - May 2017</strong>
-
+                  {{ range .Site.Params.oscar }}
+                    <h3>{{ .title }}</h3>
+                    <strong>{{ .employer }}</strong>
                     <ul>
-                      <li>
-                        Outreached to ~300 members during the 2017 New York network change and provided members with education and options for maintaining coverage and healthcare
-                      </li>
-                      <li>
-                        Promoted from Member Services Representative
-                      </li>
+                      {{ range .experience }}
+                      <li>{{ .listitem }}</li>
+                      {{ end }}
                     </ul>
+                  {{ end }}
 
                 </div>
 
                 <div class="education">
                   <h2>Education</h2>
-                    <h3><a href="http://www.gracehopper.com/" target="_blank">Grace Hopper Program at Fullstack Academy of Code</a></h3>
-                    <strong>Feb 2017 - May 2017</strong>
-                    <ul>
-                      <li>
-                        700+ hours of full stack JavaScript coursework at highly selective (10% acceptance rate) immersive software development program for women in New York City
-                      </li>
-                    </ul>
+                    {{ range .Site.Params.education.gh }}
+                    <h3><a href="{{ .url }}" target="_blank">{{ .title }}</a></h3>
+                    <strong>{{ .date }}</strong>
+                    <ul><li>{{ .description }}</li></ul>
+                    {{ end }}
 
-                    <h3>Boston University</h3>
+                    {{ range .Site.Params.education.bu }}
+                    <h3>{{ .title }}</h3>
                     <ul>
-                      <li>
-                        M.S. in Medical Science at the School of Medicine, <strong>May 2015</strong>
-                      </li>
-                      <li>
-                        B.A. in Biology at the College of Arts and Sciences, <strong>May 2013</strong>
-                      </li>
-                    </li>
-                  </ul>
+                      <li>{{ .grad }}<strong>{{ .graddate }}</strong></li>
+                      <li>{{ .undergrad }}<strong>{{ .undergraddate }}</strong></li>
+                    </ul>
+                    {{ end }}
                 </div>
 
               </div>
 
-
-
               <br />
 
               <div class="12u$">
-                <!-- <input type="button" value="Download Resume"><a href="something"></a></input> -->
                 <a href="{{ .Site.BaseURL }}/img/FannyJiang_technical_resume.pdf" target="_blank" class="button icon fa-download"></a>
               </div>
 
-              <br/>
-
-<!--
-              <embed src="img/FannyJiang_resume.pdf" width="800px" height="1100px" /> -->
+              <br />
 
 						</div>
 					</section>
@@ -284,18 +267,9 @@
 								<h2>Get in touch</h2>
               </header>
 
-							<!-- <form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div> -->
-									<div class="12u$">
-										<a class="button" href="mailto:hello@fanny-jiang.com"/>hello@fanny-jiang.com</a>
-									</div>
-								<!-- </div>
-							</form> -->
+              <div class="12u$">
+                <a class="button" href="mailto:hello@fanny-jiang.com"/>hello@fanny-jiang.com</a>
+              </div>
 
 						</div>
 					</section>

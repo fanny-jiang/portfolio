@@ -75,3 +75,48 @@ publishDir = "public"
   title = "How to Write Asynchronous JS with ES6 Generators"
   summary = "Ten-minute talk delivered at Fullstack Academy introducing ES6 Generators and how they can be used in conjunction with JavaScript Promises to write cleaner and easier to read asynchronous JavaScript"
   url = "https://youtube.com/watch?v=-YH29Bs-Zls"
+
+[[params.fellowship]]
+  title = "Teaching Fellow"
+  employer = "Fullstack Academy of Code, New York, NY, June 2017 - Present"
+
+[[params.fellowship.experience]]
+  listitem = "Teach and mentor 20 students, supporting their wellbeing and academic success in the immersive program"
+
+[[params.fellowship.experience]]
+  listitem = "Assist instructors during programming workshops, answering students’ questions and guiding their learning process"
+
+[[params.fellowship.experience]]
+  listitem = "Lead lectures on data structures and algorithms, optimization, functional programming, and number theory"
+
+[[params.fellowship.experience]]
+  listitem = "Manage 2 student projects as product manager and technical mentor, leading code reviews and daily advising"
+
+[[params.fellowship.experience]]
+  listitem = "Evaluate exams and provide constructive technical feedback"
+
+[[params.fellowship.experience]]
+  listitem = "Conduct admissions interviews 2x weekly delivering technical challenges in JavaScript and Ruby and assessing each applicant’s academic ability and fit within the Fullstack Academy community"
+
+[[params.oscar]]
+  title = "Member Services Case Manager"
+  employer = "Oscar Health Insurance, New York, NY, Sept 2016 - Feb 2017"
+
+[[params.oscar.experience]]
+  listitem = "Interacted with 10 - 20 members daily to resolve complex health insurance issues, resolving 10 - 15 cases weekly"
+
+[[params.oscar.experience]]
+  listitem = "Promoted from Member Services Representative in November 2016"
+
+[[params.education.gh]]
+  title = "Grace Hopper Program at Fullstack Academy of Code"
+  date = "Feb 2017 - May 2017"
+  description = "700+ hours of full stack JavaScript coursework at highly selective (8% acceptance rate) immersive software development program for women in New York City"
+  url = "http://www.gracehopper.com/"
+
+[[params.education.bu]]
+  title = "Boston University"
+  grad = "M.S. in Medical Science at the School of Medicine, "
+  graddate = "May 2015"
+  undergrad = "B.A. in Biology at the College of Arts and Sciences, "
+  undergraddate = "May 2013"
