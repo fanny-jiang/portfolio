@@ -76,9 +76,38 @@ publishDir = "public"
   summary = "Ten-minute talk delivered at Fullstack Academy introducing ES6 Generators and how they can be used in conjunction with JavaScript Promises to write cleaner and easier to read asynchronous JavaScript"
   url = "https://youtube.com/watch?v=-YH29Bs-Zls"
 
+[[params.datadog]]
+  title = "Solutions Engineer"
+  employer = "Datadog, New York, NY, Jan 2018 - Present"
+
+[[params.datadog.experience]]
+  listitem = "Respond to customer requests, quickly, accurately"
+
+[[params.datadog.experience]]
+  listitem = "Reproduce issues and file bugs"
+
+[[params.datadog.experience]]
+  listitem = "Build out documentation, including writing API examples"
+
+[[params.ad60]]
+  title = "Full Stack Software Engineer, Contract"
+  employer = "AD:60, New York, NY, Oct 2017 - Dec 2017"
+
+[[params.ad60.experience]]
+  listitem = "Design and implement back-end database models and routes using PostgreSQL and Node/Hapi for mobile app"
+
+[[params.ad60.experience]]
+  listitem = "Create and build routes and database architecture to securely store encrypted data and authenticate users"
+
+[[params.ad60.experience]]
+  listitem = "Develop maintainable utilities to securely handle user authentication, financial transactions, and business logic "
+
+[[params.ad60.experience]]
+  listitem = "Create and develop front-end administrator panel web app using Angular4 and ngrx store for state management"
+
 [[params.fellowship]]
   title = "Teaching Fellow"
-  employer = "Fullstack Academy of Code, New York, NY, June 2017 - Present"
+  employer = "Fullstack Academy of Code, New York, NY, June 2017 - Sept 2017"
 
 [[params.fellowship.experience]]
   listitem = "Teach and mentor 20 students, supporting their wellbeing and academic success in the immersive program"

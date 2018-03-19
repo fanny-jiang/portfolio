@@ -207,6 +207,26 @@
 
                 <div class="work-experience">
                   <h2>Work Experience</h2>
+                  {{ range .Site.Params.datadog }}
+                  <h3>{{ .title }}</h3>
+                  <strong>{{ .employer }}</strong>
+                  <ul>
+                    {{ range .experience }}
+                    <li>{{ .listitem }}</li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+
+                  {{ range .Site.Params.ad60 }}
+                  <h3>{{ .title }}</h3>
+                  <strong>{{ .employer }}</strong>
+                  <ul>
+                    {{ range .experience }}
+                    <li>{{ .listitem }}</li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+
                   {{ range .Site.Params.fellowship }}
                     <h3>{{ .title }}</h3>
                     <strong>{{ .employer }}</strong>
